@@ -1,16 +1,15 @@
 #app{
-  height:90vh;
+    text-align: center;
+    height: 90vh;
 }
-.night{
-  background-color: black;
-  color:white;
+
+p{
+    font-size: 20px;
+    color: aqua;
 }
 
 #swap{
-  outline:0;
-}
-
-.button_night{
-  background-color:blue;
-  color:white; 
+    width: 60px;
+    height: 25px;
+    font-size: 16px;
 }
