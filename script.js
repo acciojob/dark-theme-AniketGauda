@@ -6,12 +6,12 @@ let btn = document.getElementById("swap");
 function swapTheme(){
     cnt++;
     if(cnt%2==0){
-        mDiv.setAttribute("class","day-ev");
+        mDiv.setAttribute("class","day");
         btn.setAttribute("class","button_day");
         document.body.style.backgroundColor = "white";
     }
     else{
-        mDiv.setAttribute("class","day-od");
+        mDiv.setAttribute("class","night");
         btn.setAttribute("class","button_night");
         document.body.style.backgroundColor = "black";
     }
